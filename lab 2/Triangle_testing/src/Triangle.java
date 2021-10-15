@@ -4,16 +4,13 @@ public class Triangle {
 	private int[] sides;
 	public int getMaxSide()
 	{
-		return sides[0];
+		return sides[2];
 	}
 	public int getMidSide()
 	{
 		return sides[1];
 	}
-	public int getMinSide()
-	{
-		return sides[2];
-	}
+	public int getMinSide(){return sides[0];}
 	public int[] gesSides()
 	{
 		return sides.clone();
@@ -49,7 +46,7 @@ public class Triangle {
 		res[1] = side_2;
 		res[2] = side_3;
 		Arrays.sort(res);
-		if(res[0] > res[1]+ res[2])
+		if(res[2] > res[1]+ res[0])
 			throw new Exception("It is not a triangle");
 		sides = res;
 	}
