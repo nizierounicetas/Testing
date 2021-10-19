@@ -50,24 +50,25 @@ public class Triangle {
         res[1] = side_2;
         res[2] = side_3;
         Arrays.sort(res);
-        if (res[2] > res[1] + res[0])
-            throw new Exception("It is not a triangle");
+        if (res[2] >= res[1] + res[0])
+            throw new Exception("Such a triangle does not exist");
         sides = res;
     }
 
     @Override
     public String toString() {
         String type;
-        if (IsIsosceles()){
-            type = "Isosceles";
-        }else if (IsVersatile()){
-            type = "Versatile";
-        }else{
+        if (IsEquilateral()){
             type = "Equilateral";
+        }else if (IsIsosceles()){
+            type = "Isosceles";
+        }else{
+            type = "Versatile";
         }
         return "Triangle{" +
                 "\nsides= " + Arrays.toString(sides) +
                 "\nsquare= " + Square() +
+                "\ntype= " + type +
                 "\nperimeter= " + Perimeter() +
                 "\n}";
     }
