@@ -32,14 +32,24 @@ public class Triangle {
         return !IsIsosceles();
     }
 
-    public int Perimeter() {
-        return sides[0] + sides[1] + sides[2];
+    public int Perimeter() throws Exception
+    {
+        long res =  sides[0] + sides[1] + sides[2];
+        if(res > Integer.MAX_VALUE)
+            throw new Exception("Perimeter is out of Integer type");
+        return (int)res;
     }
 
-    public double Square() {
+    public float Square() throws Exception
+    {
+        double res = 0.0;
         if (IsEquilateral())
-            return (double) sides[0] * sides[0] * Math.sqrt(3) / 4;
-        return Math.sqrt((double) Perimeter() * (Perimeter() - 2 * sides[0]) * (Perimeter() - 2 * sides[1]) * (Perimeter() - 2 * sides[2])) / 4;
+            res = (double) sides[0] * sides[0] * Math.sqrt(3) / 4;
+        else
+            res = Math.sqrt((double) Perimeter() * (Perimeter() - 2 * sides[0]) * (Perimeter() - 2 * sides[1]) * (Perimeter() - 2 * sides[2])) / 4;
+        if(res > Float.MAX_VALUE)
+            throw new Exception("Square is out of Float type");
+        return (float)res;
     }
 
     public Triangle(int side_1, int side_2, int side_3) throws Exception {
