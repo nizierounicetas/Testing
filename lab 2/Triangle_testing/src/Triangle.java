@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+import java.math.*;
 
 public class Triangle {
     private int[] sides;
@@ -42,11 +42,11 @@ public class Triangle {
 
     public float Square() throws Exception
     {
-        double res = 0.0;
+        float res = 0.0);
         if (IsEquilateral())
-            res = (double) sides[0] * sides[0] * Math.sqrt(3) / 4;
+            res = (double)sides[0]) * (double)sides[0]* Math.sqrt(3) / 4;
         else
-            res = Math.sqrt((double) Perimeter() * (Perimeter() - 2 * sides[0]) * (Perimeter() - 2 * sides[1]) * (Perimeter() - 2 * sides[2])) / 4;
+            res = Math.sqrt((double)Perimeter() * (double)(Perimeter() - 2 * sides[0]) * (Perimeter() - 2 * sides[1]) * (Perimeter() - 2 * sides[2])) / 4;
         if(res > Float.MAX_VALUE)
             throw new Exception("Square is out of Float type");
         return (float)res;
