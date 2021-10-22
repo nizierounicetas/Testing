@@ -1,0 +1,105 @@
+1) 3 4 5
+expected:
+
+result:
+
+2) 7 7 7
+expected:
+
+result:
+
+3) 5 5 3
+expected:
+
+result:
+
+4) 4 7 7
+expected:
+
+result:
+
+5) 5 2 5
+expected:
+
+result:
+
+6) 0 1 2
+expected:
+
+result:
+
+7) 0 0 6
+expected:
+
+result:
+
+8) 0 0 0
+expected:
+
+result:
+
+9) 0 3 0
+expected:
+
+result:
+
+10) 4 0 6
+expected:
+
+result:
+
+11) -5 -7 -12
+expected:
+
+result:
+
+12) 1 3 4
+expected:
+
+result:
+
+13) 6 10 4
+expected:
+
+result:
+
+14) 10 5 15
+expected:
+
+result:
+
+15) 1 6 8
+expected:
+
+result:
+
+16) 1 5 2
+expected:
+
+result:
+
+17) 8 3 4
+expected:
+
+result:
+
+18) 1.23 12 19
+expected:
+
+result:
+
+19) 2117316813193 12 10
+expected:
+
+result:
+
+20) -987654345678 299 100
+expected:
+
+result:
+
+21) 1000000000 1000000000 1000000000
+expected:
+
+result:
+
