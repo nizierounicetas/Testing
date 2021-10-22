@@ -402,7 +402,7 @@ if(otv_uch_15 == voprosi[14][1]){
 vsego_zadach = 15;
 procent_vip = ball/vsego_zadach * 100;
 procent_vip = procent_vip.toFixed();
-document.getElementById('rezultat').innerHTML = "<p style='font-weight:bold;'>Тест. Тема - '<span id='tema2'></span>'.</p><span id='ot'>Задания выполнены верно на "+procent_vip+"%.</span><br><div class='progress'><div class='progress-bar' role='progressbar' style='width: "+procent_vip+"%' aria-valuenow='"+procent_vip+"' aria-valuemin='0' aria-valuemax='100'></div></div><br>"+otveti;
+document.getElementById('rezultat').innerHTML = "<p style='font-weight:bold;'><span id='tema2'></span></p><span id='ot'>Задания выполнены верно на "+procent_vip+"%.</span><br><div class='progress'><div class='progress-bar' role='progressbar' style='width: "+procent_vip+"%' aria-valuenow='"+procent_vip+"' aria-valuemin='0' aria-valuemax='100'></div></div><br>"+otveti;
 document.getElementById('tema2').innerHTML = test;
 }
 function kodirov(stroka) { 
