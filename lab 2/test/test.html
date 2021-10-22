@@ -406,23 +406,24 @@ document.getElementById('rezultat').innerHTML = "<p style='font-weight:bold;'>Т
 document.getElementById('tema2').innerHTML = test;
 }
 function kodirov(stroka) { 
-    var b64ch = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefg'+ 
-                   'hijklmnopqrstuvwxyz0123456789+/='; 
-    var b64enc = ''; 
-    var ch1, ch2, ch3; 
-    var en1, en2, en3, en4; 
-    for (var i=0; i<stroka.length;) { 
-        ch1 = stroka.charCodeAt(i++); 
-        ch2 = stroka.charCodeAt(i++); 
-        ch3 = stroka.charCodeAt(i++); 
-        en1 = ch1 >> 2; 
-        en2 = ((ch1 & 3) << 4) | (ch2 >> 4); 
-        en3 = isNaN(ch2) ? 64:(((ch2 & 15) << 2) | (ch3 >> 6)); 
-        en4 = isNaN(ch3) ? 64:(ch3 & 63); 
-        b64enc += b64ch.charAt(en1) + b64ch.charAt(en2) + 
-                      b64ch.charAt(en3) + b64ch.charAt(en4); 
-    } 
-    return b64enc; 
+    // var b64ch = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefg'+
+    //                'hijklmnopqrstuvwxyz0123456789+/=';
+    // var b64enc = '';
+    // var ch1, ch2, ch3;
+    // var en1, en2, en3, en4;
+    // for (var i=0; i<stroka.length;) {
+    //     ch1 = stroka.charCodeAt(i++);
+    //     ch2 = stroka.charCodeAt(i++);
+    //     ch3 = stroka.charCodeAt(i++);
+    //     en1 = ch1 >> 2;
+    //     en2 = ((ch1 & 3) << 4) | (ch2 >> 4);
+    //     en3 = isNaN(ch2) ? 64:(((ch2 & 15) << 2) | (ch3 >> 6));
+    //     en4 = isNaN(ch3) ? 64:(ch3 & 63);
+    //     b64enc += b64ch.charAt(en1) + b64ch.charAt(en2) +
+    //                   b64ch.charAt(en3) + b64ch.charAt(en4);
+    // }
+  //  return b64enc;
+    return stroka;
 }
 function peremeshat_vse_voprosi(m_vopros) {
     for (var i = m_vopros.length - 1; i > 0; i--) {
