@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -10,14 +11,20 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         while(flag != 0){
             System.out.println("Enter sides' values");
-            first = scanner.nextInt();
-            second = scanner.nextInt();
-            third = scanner.nextInt();
             try {
+                first = scanner.nextInt();
+                second = scanner.nextInt();
+                third = scanner.nextInt();
                 Triangle triangle = new Triangle(first, second, third);
                 System.out.println(triangle);
-            }catch (Exception e){
+            }catch (InputMismatchException e){
+                System.out.println("Input is not an Integer or out of Integer");
+                scanner.nextLine();
+                continue;
+            }catch (IllegalArgumentException e){
                 System.out.println(e.getMessage());
+                scanner.nextLine();
+                continue;
             }
             System.out.println("If you want to continue enter 1, else enter 0");
             flag = scanner.nextInt();
