@@ -1,0 +1,13 @@
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\bin\Debug\netcoreapp3.1\MinApp.exe
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\bin\Debug\netcoreapp3.1\MinApp.deps.json
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\bin\Debug\netcoreapp3.1\MinApp.runtimeconfig.json
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\bin\Debug\netcoreapp3.1\MinApp.runtimeconfig.dev.json
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\bin\Debug\netcoreapp3.1\MinApp.dll
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\bin\Debug\netcoreapp3.1\MinApp.pdb
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\obj\Debug\netcoreapp3.1\MinApp.csprojAssemblyReference.cache
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\obj\Debug\netcoreapp3.1\MinApp.AssemblyInfoInputs.cache
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\obj\Debug\netcoreapp3.1\MinApp.AssemblyInfo.cs
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\obj\Debug\netcoreapp3.1\MinApp.csproj.CoreCompileInputs.cache
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\obj\Debug\netcoreapp3.1\MinApp.dll
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\obj\Debug\netcoreapp3.1\MinApp.pdb
+D:\2 курс\тестирование\Testing\Testing\lab 3\MinApp\MinApp\obj\Debug\netcoreapp3.1\MinApp.genruntimeconfig.cache
