@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="TestMyFilms" key="{C8785BB9-FC9C-4181-9545-306A7EDD2266}" path="TestMyFilms.tcKDTest" />
+		<child name="TestShop" key="{61A71BE4-27A0-4312-8DE3-5F3E246F83CF}" path="TestShop.tcKDTest" />
+		<child name="TestWillBeWatching" key="{281406B9-FB6C-42B0-839D-B1AC48D6D236}" path="TestWillBeWatching.tcKDTest" />
+		<child name="TestPurchases" key="{38B26B2B-1F42-4C88-8560-8C650A53B305}" path="TestPurchases.tcKDTest" />
+		<child name="TestLoop" key="{9412C365-4991-4D06-BC0A-5B1DD4ACB528}" path="TestLoop.tcKDTest" />
+	</children>
+</Root>

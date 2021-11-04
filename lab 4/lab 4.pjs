@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{59CB5A85-40E4-449E-BBC2-0E9B53169A44}">
+	<children>
+		<child name="lab 4 Kinopoisk HD" key="{CC4EAB90-0BF3-449F-89DA-1443EEC5DE68}" path="lab 4\lab 4 Kinopoisk HD.mds" />
+	</children>
+	<testItems key="{26EA980E-CB41-442C-A58E-2FEF9C034FE1}">
+		<children>
+			<testItem key="{CC4EAB90-0BF3-449F-89DA-1443EEC5DE68}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{3E17F436-EFA0-4C0D-8345-8A9BAD949601}" />
+	<analysis key="{AA4E0D54-C560-4C60-8B4B-FEFAA922DA68}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

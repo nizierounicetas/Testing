@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 2">
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="44505.0103265625"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="The window size is (140, 50); screen rectangle: the left top corner is (821, 34), the right bottom corner is (961, 84).&#xA;&#xA;The screen coordinates of the point are (902, 585).&#xA;&#xA;Possible reasons:&#xA;* The application state is incorrect. Please make sure the previous actions were performed correctly.&#xA;* The object size was changed. Please change the click point coordinates, or do not specify any coordinates.&#xA;* You tried to click a wrong object. Please check the object search criteria.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageHd.button2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://hd.kinopoisk.ru/selection/42?rt=4d760ce39a26dba8bb9d814f03b98cde&amp;selectionWindowId=tvod_est&quot;).Panel(&quot;app_container&quot;).Panel(1).Panel(1).Panel(0).Panel(0).Panel(0).Panel(0).Panel(0).Panel(0).Panel(1).Panel(0).Panel(1).Panel(0).Panel(0).Panel(0).Panel(0).Panel(0).Panel(0).Panel(0).Panel(1).Panel(0).Panel(0).Button(0))"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="There was an attempt to perform an action at point (65, 441), which is out of the window bounds."/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="date" type="D" value="44505.0103259259"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{61A71BE4-27A0-4312-8DE3-5F3E246F83CF}"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="TestShop()"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="URL: https://hd.kinopoisk.ru/buy&#xA;&#xA;Aliases.browser"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Navigating to the https://hd.kinopoisk.ru/buy page."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="44505.0101266898"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="TestShop()"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>
